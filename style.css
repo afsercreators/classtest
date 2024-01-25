@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url(./bg-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.scroller {
+  padding: 50px;
+  position: absolute;
+  right: 0;
+}
+.srollar-text {
+  color: #ffffff;
+  font-weight: lighter;
+}
+.long-row {
+  position: relative;
+  margin: 50px;
+  height: 500px;
+  width: 1px;
+  background-color: #ffffff;
+  z-index: 1000;
+}
+.inner-row {
+  position: absolute;
+  height: 100px;
+  width: 3px;
+  background-color: #000;
+  top: 10px;
+  right: -1px;
+  z-index: 0;
+}
+.row-circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  bottom: -5px;
+  left: -3px;
+}
+.mouse-icon {
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+  bottom: -35px;
+  left: -12px;
+}
+.red {
+  position: absolute;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  z-index: 999999999;
+}
+.yellow {
+  margin: 10px;
+  position: absolute;
+  background-color: yellow;
+  width: 400px;
+  height: 400px;
+}
